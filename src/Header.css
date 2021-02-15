@@ -1,0 +1,125 @@
+* {
+    font-family: "Amazon Ember";
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+
+}
+
+.header__pinIcon {
+    color: white;
+    margin-right: -10px;
+
+}
+
+.header__pinIcon>.MuiSvgIcon:root {
+    font-size: 5px;
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.header__searchInput:focus {
+
+
+    outline: none !important;
+    border: 3px solid #eea342;
+    box-shadow: 0 0 10px #faa93f;
+
+
+}
+
+.header__flag {
+    margin-left: 47px;
+    margin-top: 10px;
+}
+
+.header__expand {
+    color: white;
+    margin-top: 15px;
+
+}
+
+.header__expand>.MuiSvgIcon-root {
+    font-size: 8px;
+    color: grey;
+}
+
+.header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #e9b26b;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-left: -36px;
+
+}
+
+.header__searchIcon:hover {
+    background-color: #da9e50;
+
+}
+
+.header__optionLineOne {
+    font-size: 10px;
+}
+
+.header__optionLineTwo {
+
+    font-size: 13px;
+    font-weight: 800;
+
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #f6be75;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+
+}
