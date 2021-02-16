@@ -14,13 +14,13 @@ function Home() {
 
         <div className='home__row'>
           <Product
-            title='UMIDIGI Smart Watch, Fitness Tracker with Heart Rate Monitor, Activity Tracker for Android Phone, 5ATM Waterproof Pedometer Smartwatch with Sleep Monitor, Step Counter for Women and Men-Uwatch3'
+            title='UMIDIGI Smart Watch, Fitness Tracker with Heart Rate Monitor, Activity Tracker for Android Phone'
             price={45.99}
             image='https://images-na.ssl-images-amazon.com/images/I/41tO7YRrbUL.jpg'
             rating={5}
           />
           <Product
-            title='TORRAS Shockproof Case Compatible for iPhone 12 /Compatible with iPhone 12 Pro Case [Military Grade Drop Tested] Translucent Matte Hard PC Back with Soft Silicone Edge Slim Fit Protective Guardian, Black'
+            title='TORRAS Shockproof Case Compatible for iPhone 12 /Compatible with iPhone 12 Pro Case, Black'
             price={29.99}
             image='https://m.media-amazon.com/images/I/61VN6Ek+oWL._AC_UL320_.jpg'
             rating={5}
@@ -40,7 +40,7 @@ function Home() {
             rating={4}
           />
           <Product
-            title='Beats Studio3 Wireless Noise Cancelling On-Ear Headphones - Apple W1 Headphone Chip, Class 1 Bluetooth, Active Noise Cancelling, 22 Hours Of Listening Time - Shadow Grey'
+            title='Beats Studio3 Wireless Noise Cancelling On-Ear Headphones'
             price={299.99}
             image='https://m.media-amazon.com/images/I/61DqKs7xflL._AC_UL320_.jpg'
             rating={4}
